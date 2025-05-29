@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding-bottom: 40px;
+}
+
+/* Container */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* About, Skills, Projects, Contact */
+#about, #skills, #projects, #contact {
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 40px;
+}
+
+/* Skills list */
+#skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+#skills li {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Projects */
+.project {
+  background-color: #f9f9f9;
+  border-left: 4px solid #007acc;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact section */
+#contact p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  #skills ul {
+    flex-direction: column;
+  }
+}

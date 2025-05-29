@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="img.css" />
+</head>
+<body>
+
+  <div class="gallery">
+    <img src="sun.jpg" alt="Image 1" class="thumbnail" />
+    <img src="book-stack.jpg" alt="Image 2" class="thumbnail" />
+    <img src="europe.jpg" alt="Image 3" class="thumbnail" />
+    <img src="biird.webp" alt="Image 4" class="thumbnail" />
+    <!-- Add more images as needed -->
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" id="lightbox-img" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script src="img.js"></script>
+</body>
+</html>
